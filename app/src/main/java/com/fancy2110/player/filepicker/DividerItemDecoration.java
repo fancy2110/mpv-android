@@ -1,4 +1,4 @@
-package is.xyz.filepicker;
+package com.fancy2110.player.filepicker;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;

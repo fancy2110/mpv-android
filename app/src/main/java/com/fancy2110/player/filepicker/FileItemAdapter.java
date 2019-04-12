@@ -4,7 +4,7 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package is.xyz.filepicker;
+package com.fancy2110.player.filepicker;
 
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;

@@ -1,12 +1,12 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <is.xyz.mpv.ScalerDialogPreference
+    <com.fancy2110.player.ScalerDialogPreference
         android:key="video_scale"
         android:title="@string/pref_video_upscale_title"
         android:summary=""
         app:entries="@array/scaler_list" />
 
-    <is.xyz.mpv.ScalerDialogPreference
+    <com.fancy2110.player.ScalerDialogPreference
         android:key="video_downscale"
         android:title="@string/pref_video_downscale_title"
         android:summary=""
@@ -28,7 +28,7 @@
         android:entryValues="@array/video_sync"
         android:title="@string/pref_video_sync_title" />
 
-    <is.xyz.mpv.ScalerDialogPreference
+    <com.fancy2110.player.ScalerDialogPreference
         android:key="video_tscale"
         android:title="@string/pref_video_tscale_title"
         android:summary=""

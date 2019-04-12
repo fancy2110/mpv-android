@@ -1,4 +1,4 @@
-package `is`.xyz.mpv
+package com.fancy2110.player
 
 import android.app.Notification
 import android.app.NotificationManager
@@ -32,7 +32,7 @@ class BackgroundPlaybackService : Service(), EventObserver {
 
     private fun createButtonIntent(action: String): PendingIntent {
         val intent = Intent()
-        intent.action = "is.xyz.mpv.$action"
+        intent.action = "com.fancy2110.player.$action"
         return PendingIntent.getBroadcast(this, 0, intent, 0)
     }
 

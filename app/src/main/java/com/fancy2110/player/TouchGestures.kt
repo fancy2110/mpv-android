@@ -1,4 +1,4 @@
-package `is`.xyz.mpv
+package com.fancy2110.player
 
 import android.graphics.PointF
 import android.view.MotionEvent

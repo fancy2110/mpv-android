@@ -3,19 +3,19 @@
     <!-- These settings headers are only used on tablets. -->
 
     <header
-        android:fragment="is.xyz.mpv.SettingsActivity$GeneralPreferenceFragment"
+        android:fragment="com.fancy2110.player.SettingsActivity$GeneralPreferenceFragment"
         android:title="@string/pref_header_general" />
 
     <header
-        android:fragment="is.xyz.mpv.SettingsActivity$VideoPreferenceFragment"
+        android:fragment="com.fancy2110.player.SettingsActivity$VideoPreferenceFragment"
         android:title="@string/pref_header_video" />
 
     <header
-        android:fragment="is.xyz.mpv.SettingsActivity$DeveloperPreferenceFragment"
+        android:fragment="com.fancy2110.player.SettingsActivity$DeveloperPreferenceFragment"
         android:title="@string/pref_header_developer" />
 
     <header
-        android:fragment="is.xyz.mpv.SettingsActivity$AdvancedPreferenceFragment"
+        android:fragment="com.fancy2110.player.SettingsActivity$AdvancedPreferenceFragment"
         android:title="@string/pref_header_advanced" />
 
 

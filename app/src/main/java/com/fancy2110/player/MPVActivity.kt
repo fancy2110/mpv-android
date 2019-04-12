@@ -1,4 +1,4 @@
-package `is`.xyz.mpv
+package com.fancy2110.player
 
 import kotlinx.android.synthetic.main.player.*
 

@@ -4,9 +4,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package is.xyz.filepicker;
+package com.fancy2110.player.filepicker;
 
-import is.xyz.mpv.R;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -15,11 +14,12 @@ import android.os.FileObserver;
 import android.support.annotation.NonNull;
 import android.support.v4.content.AsyncTaskLoader;
 import android.support.v4.content.ContextCompat;
-import android.support.v4.content.FileProvider;
 import android.support.v4.content.Loader;
 import android.support.v7.util.SortedList;
 import android.support.v7.widget.util.SortedListAdapterCallback;
 import android.widget.Toast;
+
+import com.fancy2110.player.R;
 
 import java.io.File;
 

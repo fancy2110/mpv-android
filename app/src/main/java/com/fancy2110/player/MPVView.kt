@@ -1,4 +1,4 @@
-package `is`.xyz.mpv
+package com.fancy2110.player
 
 import android.content.Context
 import android.media.AudioTrack
@@ -9,7 +9,7 @@ import android.util.AttributeSet
 import android.util.Log
 import android.view.WindowManager
 
-import `is`.xyz.mpv.MPVLib.mpvFormat.*
+import com.fancy2110.player.MPVLib.mpvFormat.*
 import android.annotation.SuppressLint
 import android.os.Build
 import android.preference.PreferenceManager
@@ -195,9 +195,9 @@ internal class MPVView(context: Context, attrs: AttributeSet) : SurfaceView(cont
             val lang = MPVLib.getPropertyString("track-list/$i/lang") ?: "unk"
             val mpvId = MPVLib.getPropertyInt("track-list/$i/id")!!
             val track = Track(
-                    mpvId=mpvId,
-                    name="#$mpvId: $lang"
-                    )
+                    mpvId = mpvId,
+                    name = "#$mpvId: $lang"
+            )
             tracks[type]!!.add(track)
         }
     }

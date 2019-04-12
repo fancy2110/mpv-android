@@ -4,9 +4,8 @@
  * file, You can obtain one at http://mozilla.org/MPL/2.0/.
  */
 
-package is.xyz.filepicker;
+package com.fancy2110.player.filepicker;
 
-import is.xyz.mpv.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -24,9 +23,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.fancy2110.player.R;
+
 import java.io.File;
 import java.util.HashMap;
-import java.util.Stack;
 
 /**
  * A fragment representing a list of Files.

@@ -1,4 +1,4 @@
-package is.xyz.mpv;
+package com.fancy2110.player;
 
 import android.support.annotation.NonNull;
 import android.support.v7.app.ActionBar;
@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.View;
 
-import is.xyz.filepicker.FilePickerFragment;
+import com.fancy2110.player.filepicker.FilePickerFragment;
 
 import java.io.File;
 

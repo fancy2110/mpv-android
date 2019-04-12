@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="is.xyz.mpv">
+    package="com.fancy2110.player">
 
     <uses-feature
         android:name="android.software.leanback"
@@ -20,7 +20,7 @@
         android:icon="@mipmap/mpv_launcher_icon"
         android:label="@string/mpv_activity">
         <activity
-            android:name=".MPVActivity"
+            android:name="com.fancy2110.player.MPVActivity"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:launchMode="singleTask"
             android:screenOrientation="sensorLandscape"
@@ -140,7 +140,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.fancy2110.player.MainActivity"
             android:configChanges="orientation|screenSize"
             android:theme="@style/FilePickerTheme">
             <intent-filter>
@@ -151,13 +151,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SettingsActivity"
+            android:name="com.fancy2110.player.SettingsActivity"
             android:label="@string/title_activity_settings" />
-        <service android:name=".BackgroundPlaybackService" android:exported="false" />
-        <receiver android:name=".NotificationButtonReceiver" android:exported="false">
+        <service android:name="com.fancy2110.player.BackgroundPlaybackService" android:exported="false" />
+        <receiver android:name="com.fancy2110.player.NotificationButtonReceiver" android:exported="false">
             <intent-filter>
-                <action android:name="is.xyz.mpv.ACTION_PREV" />
-                <action android:name="is.xyz.mpv.ACTION_NEXT" />
+                <action android:name="com.fancy2110.player.ACTION_PREV" />
+                <action android:name="com.fancy2110.player.ACTION_NEXT" />
             </intent-filter>
         </receiver>
     </application>

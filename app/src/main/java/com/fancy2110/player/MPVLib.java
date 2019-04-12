@@ -1,4 +1,4 @@
-package is.xyz.mpv;
+package com.fancy2110.player;
 
 // Wrapper for native library
 
@@ -6,7 +6,6 @@ import java.util.ArrayList;
 import java.util.List;
 import android.content.Context;
 import android.graphics.Bitmap;
-import android.opengl.GLSurfaceView;
 import android.view.Surface;
 
 public class MPVLib {
